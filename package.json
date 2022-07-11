@@ -1,0 +1,31 @@
+{
+  "name": "fastify-project-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NRobert-jmdrgg/fastify-cli-proba.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NRobert-jmdrgg/fastify-cli-proba/issues"
+  },
+  "homepage": "https://github.com/NRobert-jmdrgg/fastify-cli-proba#readme",
+  "dependencies": {
+    "@fastify/swagger": "^7.4.1",
+    "fastify": "^4.2.0",
+    "fastify-swagger": "^5.2.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
