@@ -23,6 +23,7 @@
     "@fastify/swagger": "^7.4.1",
     "fastify": "^4.2.0",
     "fastify-swagger": "^5.2.0",
+    "pino-pretty": "^8.1.0",
     "uuid": "^8.3.2"
   },
   "devDependencies": {

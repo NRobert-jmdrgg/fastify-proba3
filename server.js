@@ -1,6 +1,17 @@
 const PORT = 5000;
 
-const fastify = require('fastify')({ logger: true });
+const fastify = require('fastify')({
+  logger: {
+    transport: {
+      target: 'pino-pretty',
+      options: {
+        colorize: true,
+        ignore: 'reqId', // Itt pl ignoráljuk a reqId információt
+      },
+    },
+  },
+});
+
 fastify.register(require('@fastify/swagger'), {
   routePrefix: '/docs',
   swagger: {
